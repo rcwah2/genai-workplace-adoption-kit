@@ -1,0 +1,58 @@
+# Generative AI Use-Case Intake Record
+# Tier 2 and Tier 3 records should also be entered in the AI System Inventory:
+# https://github.com/rcwah2/ai-system-inventory-template
+
+intake_id: GAI-YYYY-000
+submitted_date: YYYY-MM-DD
+submitted_by: ""
+business_owner: ""          # accountable leader
+department: ""
+
+problem_and_value:
+  problem_statement: ""
+  current_process: ""
+  volume_per_month: 0
+  minutes_per_task_today: 0
+  expected_benefit: ""        # hours returned, turnaround time, quality, member experience
+  baseline_measure: ""
+  success_measure: ""
+
+solution:
+  tool: ""                    # M365 Copilot | Copilot Chat | ChatGPT Enterprise | Copilot agent | custom GPT | vendor AI feature
+  features_used: []           # chat, document grounding, agent, connector, automation, API
+  vendor_new_to_credit_union: false
+  takes_system_actions: false # sends, posts, updates, or moves money
+  runs_automatically: false   # scheduled or triggered
+
+data:
+  highest_data_class: ""      # Public | Internal | Confidential | Restricted
+  member_data_included: false
+  data_sources: []            # SharePoint sites, exports, core reports, etc.
+  prohibited_data_excluded: true  # SAR info, credentials, full card data
+
+output_and_oversight:
+  who_sees_output: ""         # self | team | other departments | members | regulators
+  reaches_members: false
+  influences_decisions: []    # credit, account, fraud, BSA/AML, collections, employment, none
+  human_review: ""            # every output | sample | none
+  reviewer_role: ""
+
+risks:
+  what_could_go_wrong: []
+  how_we_would_detect_it: ""
+  fair_lending_or_udaap_relevance: false
+
+classification:
+  proposed_tier: ""           # 1 | 2 | 3
+  tier_raising_factors: []
+  assigned_tier: ""
+  decision: ""                # approve | approve_with_conditions | defer | decline
+  conditions: []
+  approvers: []
+  decision_date: YYYY-MM-DD
+  next_review_date: YYYY-MM-DD
+
+monitoring:
+  metrics: []
+  sampling_frequency: ""
+  escalation_contact: ""
