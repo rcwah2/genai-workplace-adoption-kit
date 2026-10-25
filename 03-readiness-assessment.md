@@ -52,7 +52,7 @@ Checklist template: [templates/readiness-checklist.csv](templates/readiness-chec
 
 ### 4. Permissions and oversharing
 
-This is usually the longest workstream. Microsoft recommends fixing oversharing first and then setting guardrails, using Purview and SharePoint Advanced Management, which is included with Microsoft 365 Copilot licenses ([Microsoft](https://learn.microsoft.com/en-us/copilot/microsoft-365/configure-data-security-copilot); [Microsoft Tech Community](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/mitigate-oversharing-to-govern-microsoft-365-copilot-and-agents/4448744)).
+This is usually the longest workstream. Microsoft recommends fixing oversharing first and then setting guardrails, using Purview and SharePoint Advanced Management. Most SharePoint Advanced Management features are included once at least one Copilot license is assigned; a few, such as restricted site creation by apps, still need the Plan 1 add-on ([Microsoft Learn](https://learn.microsoft.com/sharepoint/sharepoint-advanced-management-features-copilot-license); [Microsoft](https://learn.microsoft.com/en-us/copilot/microsoft-365/configure-data-security-copilot); [Microsoft Tech Community](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/mitigate-oversharing-to-govern-microsoft-365-copilot-and-agents/4448744)).
 
 | Check | Evidence |
 |---|---|
@@ -69,7 +69,7 @@ This is usually the longest workstream. Microsoft recommends fixing oversharing 
 | Check | Evidence |
 |---|---|
 | Purview DLP for Copilot configured to exclude labeled content from processing, tested in simulation first | DLP policy, simulation report |
-| DLP for Copilot prompts with sensitive information types, where licensed | Policy |
+| DLP for Copilot prompts blocks sensitive information types (card, Social Security, account numbers, custom types); start from Microsoft's default policy in simulation, then enforce. Check that rollout has reached the tenant | Policy, simulation report |
 | Purview Audit on, with Copilot interactions captured | Audit search sample |
 | Insider risk and communication compliance policies reviewed for AI use | Policy decision |
 | Prompt-injection and AI-enabled phishing added to the security awareness program | Training content |

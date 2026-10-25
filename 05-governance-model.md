@@ -74,11 +74,11 @@ Fully automated output to members or systems without human review is not approve
 | Tier | Description | Examples | Approval | Oversight | Turnaround |
 |---|---|---|---|---|---|
 | **Tier 1: Personal productivity** | Individual use of approved features; data within the standard; output reviewed by the user | Drafting internal email, meeting recaps, summarizing a document | Self-service | H1 | Immediate |
-| **Tier 2: Team or process use** | Shared or repeatable use; shared agents; Confidential or limited Restricted data; output used by others | Member Care knowledge agent, after-call note drafting, policy Q&A agent | AI Review Group | H2 | 10 business days |
+| **Tier 2: Team or process use** | Shared or repeatable use; shared agents; Confidential data, or limited Restricted data needed for the task under DLP and masking controls; output used by others | Member Care knowledge agent, after-call note drafting, policy Q&A agent | AI Review Group | H2 | 10 business days |
 | **Tier 3: Member-impacting or regulated** | Output reaches members without line-by-line review, affects credit, account, fraud, BSA/AML, collections, or employment decisions, or the AI takes system actions | Member-facing assistant, underwriting support, an agent that updates core records | Business executive and CRO | H3 | 30 to 60 days |
 | **Prohibited** | Uses listed in the acceptable-use standard | AI as sole credit decision maker; SAR data in general tools | Not approved | — | — |
 
-**Raise the tier by one** if a use involves Restricted member data, sends output outside the organization, runs on a schedule or trigger, uses a connector or third-party agent, could raise fair-lending or unfair, deceptive, or abusive practices (UDAAP) questions, or comes from a vendor not yet reviewed.
+**Raise the tier by one** if a use involves Restricted member data beyond what its tier allows (any Restricted data in a Tier 1 use; more than limited, task-specific Restricted data in a Tier 2 use), sends output outside the organization, runs on a schedule or trigger, uses a connector or third-party agent, could raise fair-lending or unfair, deceptive, or abusive practices (UDAAP) questions, or comes from a vendor not yet reviewed.
 
 **Ongoing obligations**
 

@@ -21,7 +21,7 @@ domain_no,domain,check,evidence,owner,rating_RAG,remediation_action,remediation_
 4,Permissions and oversharing,Every remediated site has an owner,Ownership policy,M365 Admin,,,,
 4,Permissions and oversharing,Inactive and ownerless sites archived,Lifecycle report,M365 Admin,,,,
 5,Security,DLP for Copilot excludes labeled content (simulation then enforce),DLP policy and simulation report,Information Security,,,,
-5,Security,DLP for Copilot prompts with sensitive info types,Policy,Information Security,,,,
+5,Security,DLP for Copilot prompts blocks sensitive info types (default policy in simulation then enforce),Policy and simulation report,Information Security,,,,
 5,Security,Purview Audit captures Copilot interactions,Audit search sample,Information Security,,,,
 5,Security,Insider risk and communication compliance reviewed for AI,Policy decision,Information Security,,,,
 5,Security,Prompt injection and AI phishing in awareness training,Training content,Information Security,,,,

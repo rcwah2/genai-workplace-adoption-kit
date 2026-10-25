@@ -26,7 +26,7 @@
 |---|---|---|
 | Permissions and oversharing | Amber | 14 legacy SharePoint sites from the merged credit unions shared with "everyone"; Restricted Content Discovery applied while owners complete access reviews |
 | Data classification | Amber | Labels published; auto-labeling for account numbers in simulation |
-| Security | Green | DLP for Copilot blocks Restricted-labeled content and prompts containing full card or Social Security numbers |
+| Security | Green | DLP for Copilot excludes Restricted-labeled files from processing and blocks prompts containing card, Social Security, or full account numbers (moved from simulation to enforcement before launch) |
 | Records and retention | Green | Copilot interactions retained under the member-service records schedule |
 | Organizational readiness | Amber | Procedures in three libraries with duplicates; consolidated library of 220 procedures completed in week 3 |
 | Change readiness | Green | Frontline champion on each shift; job-impact message from the COO |
@@ -55,7 +55,7 @@ Go decision for the pilot scope, with conditions.
 | Teams meeting and call summary | Recaps of shift huddles, supervisor escalation calls, and procedure-change briefings held in Teams | 1 | Transcription notice in every meeting; recaps checked by the meeting owner |
 | Approved policy knowledge search | A Copilot agent grounded only on the consolidated procedures library, citing the source procedure in every answer | 2 | One curated library; monthly sample of 30 answers; wrong answers routed to the procedure owner |
 | Draft after-call notes | Agent enters rough notes; Copilot drafts a structured note using the approved template; agent reviews and pastes it into the contact-center platform | 2 | Work account only; masking guidance for identifiers; DLP for card and Social Security numbers; agent review of every note |
-| Employee assistance | Copilot Chat for new-hire questions on procedures, systems, and HR policies, with links to source pages | 1 | Grounded on approved internal content; trainers review common questions weekly |
+| Employee assistance | Copilot Chat for new-hire questions on procedures, systems, and HR policies, with links to source pages | 2 | Shared, repeatable use for a defined group; grounded on approved internal content; trainers review common questions weekly; no member data in prompts |
 
 **Success criteria:** 70% weekly active use by week 6; documentation time down 25%; handle time improves against the comparison group; no drop in QA scores; no unresolved Sev 1 or Sev 2 incident.
 **Stop criteria:** any Sev 1 incident; QA score down more than 5 points; weekly active use under 40% at week 6.
@@ -99,18 +99,27 @@ Go decision for the pilot scope, with conditions.
 
 ### Capacity
 
-At full rollout, the documentation saving alone (1.7 minutes × 38,000 contacts) is about **1,077 agent-hours a month**. Faster lookups would add roughly 230 hours. Leadership agreed in advance to redirect released hours to outbound callbacks for members with open service issues, which is tracked as a capacity-released metric.
+Two numbers are reported, and only one counts as value.
+
+| Measure | Calculation | Hours a month at full rollout | Layer |
+|---|---|---|---|
+| **Capacity released (reported)** | Handle-time gain against the comparison group: 0.45 minutes × 38,000 contacts | **About 285** | Business outcome |
+| Task-level potential (not reported as value) | Documentation saving 1.7 minutes × 38,000, plus lookup saving 0.9 minutes × 15,200 lookups | About 1,300 | Productivity |
+
+The gap is expected. Agents spent part of the documentation saving reviewing and correcting drafts, and some after-call work overlaps with time already counted inside the call. Only the handle-time gain is confirmed in the contact-center data, so only that figure goes on the scorecard. The task-level figure shows the upside if the review step gets faster as agents gain confidence; it is retested at the next quarterly read-out.
+
+Leadership agreed in advance to redirect released hours to outbound callbacks for members with open service issues. Workforce management tracks this as the capacity-released metric.
 
 ## 6. Decision
 
 | Use case | Decision | Rationale |
 |---|---|---|
-| Draft after-call notes | **Scale** to all 85 agents | Clear documentation and handle-time gains; QA improved |
+| Draft after-call notes | **Scale** to all 85 agents | Documentation time down 38%; handle time down about 6% against the comparison group, on track toward the 8% two-quarter target; QA improved |
 | Policy knowledge search | **Scale**, with a quarterly content review | Faster lookups; errors were content problems, not Copilot problems |
 | Teams meeting and call summary | **Scale** to all supervisors and managers | Low risk, clear time saving |
 | Employee assistance for new hires | **Extend** through the next two hiring classes | Promising onboarding signal; sample too small |
 
-**Wave 2 candidates:** board-package variance commentary (Finance) and loan condition letters (Lending), after Lending completes its Tier 2 conditions.
+**Wave 2 candidates:** board-package variance commentary (Finance) and loan condition letters (Lending), after Lending completes a Tier 3 review (member-facing credit communications raise fair-lending and UDAP/UDAAP questions).
 
 ## 7. Lessons
 

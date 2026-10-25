@@ -106,7 +106,7 @@ Did the business get measurably better? The business owner owns these numbers an
 | Adoption | 82% of 40 pilot agents active weekly; 90% passed the proficiency check |
 | Productivity | After-call documentation from 4.5 to 2.8 minutes; knowledge lookup from 2.8 to 1.9 minutes |
 | Business outcome | Average handle time down 6% against the comparison group; QA completeness failures from 12% to 7% |
-| Value statement | About 1,000 agent-hours a month released at full rollout, redirected to outbound member callbacks (see [10](10-member-care-scenario.md)) |
+| Value statement | About 285 agent-hours a month released at full rollout, based on the handle-time gain against the comparison group, redirected to outbound member callbacks. The larger task-level saving (about 1,300 hours) is shown as potential, not value (see [10](10-member-care-scenario.md)) |
 
 ## Reporting cadence
 

@@ -30,7 +30,7 @@ It is written for a credit union or community financial institution with roughly
 | 06 | [Pilot model](06-pilot-model.md) | How does a candidate move from idea to a scale decision? |
 | 07 | [Adoption plan](07-adoption-plan.md) | How do people learn it, use it well, and keep using it? |
 | 08 | [Metrics framework](08-metrics-framework.md) | How do we separate adoption, productivity, and business outcomes? |
-| 09 | [30-60-90 day roadmap](09-30-60-90-roadmap.md) | What happens in the first 90 days? |
+| 09 | [30-60-90 day roadmap](09-30-60-90-roadmap.md) | What happens in the first 90 days, and when is the scale decision made? |
 | 10 | [Member Care scenario](10-member-care-scenario.md) | What does this look like in a credit union contact center? |
 
 ```

@@ -60,7 +60,7 @@ See [08 Metrics framework](08-metrics-framework.md) for which layer each metric 
 |---|---|
 | What content will Copilot read (mailboxes, Teams, SharePoint sites, files)? | Defines the grounding scope that needs a permission review |
 | What is the highest data class? Public, Internal, Confidential, Restricted | Drives the risk tier and DLP needs |
-| Does it include member personal information? | Raises the tier; triggers privacy review |
+| Does it include member personal information? | Sets a floor of Tier 2; triggers privacy review |
 | Is any prohibited data involved (SAR information, credentials, full card data)? | If yes, not a general Copilot use |
 | Are the source documents current and owned? | Stale content produces wrong answers |
 
@@ -92,9 +92,9 @@ State the outcome in business terms with a target and a time frame:
 
 | Outcome type | Example target |
 |---|---|
-| Cycle time | Average handle time down 8% within 90 days |
+| Cycle time | Average handle time down 8% within two quarters |
 | Quality | QA completeness failures from 12% to under 6% |
-| Capacity | 1,000 agent-hours a month redirected to callbacks and outreach |
+| Capacity | 300 agent-hours a month, confirmed by handle-time data, redirected to callbacks and outreach |
 | Member experience | First-contact resolution up 3 points |
 | Risk | Fewer documentation exceptions found in QA review |
 
