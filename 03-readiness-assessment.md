@@ -82,7 +82,7 @@ This is usually the longest workstream. Microsoft recommends fixing oversharing 
 | Copilot listed in the AI system inventory, with the use cases it supports | Inventory entry |
 | Microsoft confirmed in the third-party risk program for this use (terms, data protection addendum, SOC reports) | Vendor record |
 | Recording and transcription consent rules reviewed by Legal | Legal memo |
-| Fair-lending, UDAAP, and privacy review triggers built into intake | Intake form |
+| Fair-lending, UDAP/UDAAP, and privacy review triggers built into intake | Intake form |
 | Regulatory evidence map prepared ([framework alignment](reference/framework-alignment.md)) | Evidence map |
 
 ### 7. Records and retention
