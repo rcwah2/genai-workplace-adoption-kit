@@ -1,8 +1,8 @@
-# 03. Starter Use-Case Library
+# Reference: Starter Use-Case Library
 
 Thirty starter use cases for a credit union, grouped by department. Start with Tier 1 uses to build skills and trust; move to Tier 2 once permission fixes and training are in place.
 
-**Key:** Tier = risk tier from [02](02-intake-and-risk-tiers.md). Data = highest data class used. Tool: M365 = Microsoft 365 Copilot; Chat = Copilot Chat or ChatGPT Enterprise; Agent = Copilot agent or custom GPT.
+**Key:** Tier = risk tier from [05 Governance model](../05-governance-model.md). Data = highest data class used. Tool: M365 = Microsoft 365 Copilot; Chat = Copilot Chat or ChatGPT Enterprise; Agent = Copilot agent or custom GPT.
 
 ---
 
@@ -87,13 +87,6 @@ Thirty starter use cases for a credit union, grouped by department. Start with T
 
 ---
 
-## How to pick the first ten
+## How to pick the first ones
 
-Score each candidate from 1 to 5 on:
-- **Volume:** how often the task happens
-- **Time per task:** minutes saved each time
-- **Data risk:** lower is better (Public or Internal first)
-- **Measurability:** a baseline exists or is easy to collect
-- **Sponsor:** a leader wants it and will champion it
-
-Start with the highest totals. Aim for at least one use case in Member Care, Lending, Operations, and Finance so every major area sees value early.
+Score candidates with the [prioritization model](../04-prioritization-model.md) and its [scoring template](../templates/prioritization-scoring.csv). Aim for at least one Wave 1 use case with a hard business metric, such as handle time or cycle time, and spread early wins across Member Care, Lending, Operations, and Finance.

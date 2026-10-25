@@ -1,0 +1,9 @@
+candidate,business_value,measurable_outcome,feasibility,data_readiness,org_readiness,risk_(5=lowest),effort_(5=lowest),weighted_score_(0-100),gate_flags,wave
+WEIGHTS (%),25,15,15,15,10,10,10,,,
+Draft after-call notes (Member Care),5,5,4,4,4,4,4,88,,Wave 1
+Teams meeting recap for project and committee meetings,3,3,5,5,4,5,5,82,,Wave 1
+Policy and procedure knowledge search (Member Care),5,4,4,3,4,4,3,80,,Wave 1
+Board-package variance commentary (Finance),4,4,4,4,3,3,4,76,,Wave 2
+Marketing campaign variants,2,3,5,5,4,4,5,75,,Wave 2
+Loan condition letter drafting (Lending),4,4,3,3,3,2,3,66,risk 2 or lower: complete tier review and conditions before pilot,Wave 2
+Member complaint summary for supervisors,3,3,4,2,3,2,3,58,data readiness 2 or lower: fix data first; risk 2 or lower: complete tier review and conditions before pilot,Backlog

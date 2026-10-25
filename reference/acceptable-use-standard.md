@@ -1,4 +1,4 @@
-# 01. Generative AI Acceptable Use Standard
+# Reference: Generative AI Acceptable Use Standard
 
 **Applies to:** all team members, contractors, and temporary staff using generative AI for credit union work.
 **Owner:** AVP, Enterprise AI and Automation. **Approvers:** CTO, Chief Risk Officer, Information Security Officer, Compliance. **Review cycle:** every 6 months, or when tools or regulations change.
@@ -16,7 +16,7 @@ Generative AI can save time on writing, summarizing, analysis, and research. It 
 | Microsoft 365 Copilot (licensed) | Approved | Works inside Word, Excel, Outlook, Teams, and PowerPoint and uses content you already have permission to see. Prompts and responses are not used to train foundation models and are logged for audit and eDiscovery ([Microsoft](https://learn.microsoft.com/en-us/microsoft-365/copilot/enterprise-data-protection)). |
 | Microsoft Copilot Chat, signed in with your work account | Approved | Covered by enterprise data protection only when you sign in with your work account ([Microsoft](https://support.microsoft.com/en-us/topic/data-protection-when-using-microsoft-365-copilot-chat-for-work-or-school-1e7de2a4-5ca8-4e93-a6e6-1965def6a0fe)). |
 | ChatGPT Enterprise (credit union workspace) | Approved | Business data is not used for training by default; admins control retention and can access audit logs ([OpenAI](https://openai.com/enterprise-privacy)). |
-| Copilot agents, custom GPTs, connectors, and plug-ins | Approval required | Must go through intake (see [02](02-intake-and-risk-tiers.md)) before being shared beyond the person who built them. |
+| Copilot agents, custom GPTs, connectors, and plug-ins | Approval required | Must go through intake (see [05 Governance model](../05-governance-model.md)) before being shared beyond the person who built them. |
 | AI meeting note-takers, browser extensions, and AI features inside other vendor products | Approval required | Treated as a third-party AI vendor. |
 | Personal or consumer AI accounts (free or paid) | **Not approved** for any non-public credit union information. | |
 
@@ -76,4 +76,4 @@ All users complete "Safe Use of Generative AI" training and acknowledge this sta
 
 ---
 
-**Related:** [02 Intake and risk tiers](02-intake-and-risk-tiers.md) · [04 Rollout plan](04-rollout-and-enablement-plan.md)
+**Related:** [05 Governance model](../05-governance-model.md) · [07 Adoption plan](../07-adoption-plan.md)

@@ -1,0 +1,70 @@
+# AI Opportunity Intake (Phase 0)
+# Guidance: 02-phase-0-opportunity-intake.md
+# Approved Tier 2 and Tier 3 records are also entered in the AI System Inventory:
+# https://github.com/rcwah2/ai-system-inventory-template
+
+intake_id: CPL-YYYY-000
+submitted_date: YYYY-MM-DD
+department: ""
+
+# 1. Business problem statement
+problem:
+  statement: ""               # [Team] spends [time/cost] on [task], causing [impact]. We want [outcome].
+  current_process: ""
+  affected_roles: []
+  headcount_in_scope: 0
+
+# 2. Business owner
+ownership:
+  accountable_owner: ""       # director or above
+  day_to_day_lead: ""
+  executive_sponsor: ""       # required for Tier 3
+
+# 3. Baseline metrics (locked before the pilot starts)
+baseline:
+  volume_per_month: 0
+  minutes_per_task: 0
+  quality_or_error_rate: ""
+  cycle_time_or_service_level: ""
+  data_source: ""
+  data_owner: ""
+  measurement_period: ""      # e.g. 8 weeks before pilot
+  baseline_exists: false
+  baseline_collection_plan: ""
+
+# 4. Data involved
+data:
+  copilot_grounding_sources: []   # mailboxes, Teams, SharePoint sites, OneDrive, Graph connectors
+  highest_data_class: ""          # Public | Internal | Confidential | Restricted
+  member_personal_info: false
+  prohibited_data_excluded: true  # SAR information, credentials, full card data
+  source_content_current_and_owned: false
+
+# 5. Process maturity
+process_maturity: 0           # 1 ad hoc | 2 documented | 3 standardized | 4 measured
+
+# 6. Security and privacy considerations
+security_privacy:
+  output_leaves_organization: false
+  takes_system_actions: false     # send, post, update records
+  connectors_or_third_party_agents: []
+  recording_or_transcription_consent: false
+  retention_or_legal_hold_impact: false
+  affects_regulated_decisions: [] # credit, account, fraud, collections, employment, none
+
+# 7. Expected business outcome
+expected_outcome:
+  outcome_type: ""            # cycle time | quality | capacity | member experience | risk | revenue/retention
+  metric: ""
+  baseline_value: ""
+  target_value: ""
+  target_date: YYYY-MM-DD
+
+# 8. Initial classification (AI and Automation team)
+classification:
+  proposed_tier: ""           # 1 | 2 | 3
+  readiness_flags: []
+  prioritization_score: 0
+  decision: ""                # proceed_to_assessment | return_for_detail | decline
+  decision_date: YYYY-MM-DD
+  reviewer: ""
