@@ -78,7 +78,7 @@ Fully automated output to members or systems without human review is not approve
 | **Tier 3: Member-impacting or regulated** | Output reaches members without line-by-line review, affects credit, account, fraud, BSA/AML, collections, or employment decisions, or the AI takes system actions | Member-facing assistant, underwriting support, an agent that updates core records | Business executive and CRO | H3 | 30 to 60 days |
 | **Prohibited** | Uses listed in the acceptable-use standard | AI as sole credit decision maker; SAR data in general tools | Not approved | — | — |
 
-**Raise the tier by one** if a use involves Restricted member data, sends output outside the organization, runs on a schedule or trigger, uses a connector or third-party agent, could raise fair-lending or UDAAP questions, or comes from a vendor not yet reviewed.
+**Raise the tier by one** if a use involves Restricted member data, sends output outside the organization, runs on a schedule or trigger, uses a connector or third-party agent, could raise fair-lending or unfair, deceptive, or abusive practices (UDAAP) questions, or comes from a vendor not yet reviewed.
 
 **Ongoing obligations**
 
@@ -123,7 +123,7 @@ This follows NCUA's position that existing third-party due-diligence expectation
 
 | Severity | Examples | Response | Notify |
 |---|---|---|---|
-| **Sev 1: Critical** | Member data exposed outside the organization; AI output caused member harm or a regulatory breach; suspected compromise through an agent or connector | Suspend the use case or agent at once; invoke the incident response plan | CISO, CRO, Legal, CTO within 1 hour. Assess whether NCUA's 72-hour cyber incident notification under 12 CFR 748.1(c) applies. |
+| **Sev 1: Critical** | Member data exposed outside the organization; AI output caused member harm or a regulatory breach; suspected compromise through an agent or connector | Suspend the use case or agent at once; invoke the incident response plan | CISO, CRO, Legal, CTO within 1 hour. Assess at once whether this is a reportable cyber incident under 12 CFR 748.1(c), which requires notifying NCUA no later than 72 hours after the credit union reasonably believes one occurred, and whether member notice under Appendix B to Part 748 is needed. |
 | **Sev 2: High** | Restricted data surfaced to an unauthorized employee (oversharing); wrong output reached a member and was corrected | Contain (Restricted Content Discovery, permission fix, DLP rule); root cause within 5 days | CISO, AVP AI and Automation, business owner within 4 hours |
 | **Sev 3: Moderate** | Restricted data entered into Copilot against the standard, no exposure; repeated wrong answers from an agent | Coach the user; fix the source content; sample outputs | AVP AI and Automation within 1 business day |
 | **Sev 4: Low** | Single wrong answer caught in review; prompt-library quality issue | Log and fix through the feedback loop | Monthly scorecard |
